@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package unique-identifier="id" version="3.0" xmlns="http://www.idpf.org/2007/opf" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="id">LaBonaLingvo</dc:identifier>
+    <dc:title>La bona lingvo</dc:title>
+    <dc:creator file-as="Piron, Claude">Claude Piron</dc:creator>
+    <dc:language>eo</dc:language>
+  </metadata>
+  <manifest>
+    <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="style" href="style/style.css" media-type="text/css"/>
+    <item id="chapter_01" href="chapter_01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_02" href="chapter_02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_03" href="chapter_03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_04" href="chapter_04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_05" href="chapter_05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_06" href="chapter_06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_07" href="chapter_07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_08_ps" href="chapter_08_ps.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine>
+    <itemref idref="cover" properties="page-spread-right"/>
+    <itemref idref="nav" linear="no"/>
+    <itemref idref="chapter_01" properties="page-spread-right"/>
+    <itemref idref="chapter_02"/>
+    <itemref idref="chapter_03"/>
+    <itemref idref="chapter_04"/>
+    <itemref idref="chapter_05"/>
+    <itemref idref="chapter_06"/>
+    <itemref idref="chapter_07"/>
+    <itemref idref="chapter_08_ps"/>
+  </spine>
+</package>
