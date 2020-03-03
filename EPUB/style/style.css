@@ -55,8 +55,8 @@ nav a {
 }
 .part p {
   display: block;
-  margin: .2em 0;
-  text-indent: 2em;
+  margin: 0 0 1em 0;
+  /* text-indent: 2em; */
   line-height: 125%;
   text-align: justify;
 }
@@ -69,16 +69,63 @@ nav a {
   page-break-after: avoid;
   font-family: sans-serif;
 }
+.chapter > h3 {
+  font-style: italic;
+  font-weight: normal;
+}
 .chapter hr {
   background-color: inherit;
   border-width: 0;
   margin: 1em 0;
 }
 
-table, th, td {
+.examples p {
+  text-indent: 0;
+  background-color: rgb(220,220,220);
+  padding: 1em;
+}
+
+.c3_forms {
+  margin: auto;
+  text-align: center;
+}
+.c3_forms td {
+  padding: 0 .5em;
+}
+
+.c4_forms {
+  margin: .5em auto .5em auto;
+}
+
+.c4_thing {
+  margin: .5em auto .5em auto;
+}
+.c4_thing td {
+  padding: .5em;
+  text-align: center;
+}
+.c4_thing table tr+tr td {
+  border-top: 1px solid black;
+}
+.c4_thing table td+td {
+  border-left: 1px solid black;
+}
+
+.c7_thing {
+  margin: auto;
+  text-align: left;
+}
+.c7_thing thead th {
+  padding-bottom: .5em;
+}
+.c7_thing td, .c7_thing th {
+  padding: .5em;
+}
+
+/* table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
   padding: 6px;
   vertical-align: top;
   margin: 5px;
-}
+} */
